@@ -1,0 +1,45 @@
+{
+	"name": "useless/legacycookie",
+	"description": "PDO Wrapper with Config",
+	"type": "library",
+	"keywords": [
+		"Cookie"
+		,"Session"
+	],
+	"homepage": "https://github.com/pteague/useless-legacycookie",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Patrick Teague",
+			"role": "developer"
+		}
+	],
+	"support": {
+		"source": "https://github.com/pteague/useless-legacycookie"
+	},
+	"require": {
+		"php": ">=5.3.10"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "3.7.*",
+		"whatthejeff/nyancat-phpunit-resultprinter": "~1.2"
+	},
+	"suggest": {
+		"monolog/monolog": "For logging"
+	},
+	"autoload": {
+		"psr-4": {
+			"Useless\\Legacy\\": "src/"
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"Useless\\Legacy\\": "test/src/"
+		}
+	}
+	,"include-path": [
+		"./"
+	]
+	,"minimum-stability": "dev"
+	,"prefer-stable": true
+}
